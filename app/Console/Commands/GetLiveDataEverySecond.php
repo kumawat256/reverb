@@ -29,7 +29,7 @@ class GetLiveDataEverySecond extends Command
     {
         \Log::info('yes this function works');
         $token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzM4MDQ5OTE5LCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTE5MzI2NSJ9.I-8S0LPd-1CQ7D8iKSyBZ2XF9SeC9HkLqJhsbihL7VP4-PTtv2bkF-wZmtNc27Z5uz-xWIxG0nySvnpbUZ5AAQ";
-        $clientID = "1101193265";
+        $clientID = "update your client id";
         $url = "wss://api-feed.dhan.co?version=2&token=".$token."&clientId=".$clientID."&authType=2";
 
         try {
